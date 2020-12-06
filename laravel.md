@@ -25,3 +25,8 @@ mv composer.phar /usr/local/bin/composer
 ```
 sudo apt-get install php-curl php-mbstring php-dom php-zip
 ```
+
+## Certbot
+```
+sudo certbot --apache -d your_domain
+```
